@@ -28,34 +28,29 @@ In the exercises below, just write each function and test the output with `conso
 
 ```js
 // 1) Type of function?
-function add9() {
-  // Your code goes here...
+function add9(n) {
+  return n + 9;
 }
 
 // 2) Type of function?
-const multiplyNum = function () {
-  // Your code goes here...
-};
+const multiplyNum = function (n1,n2) {
+return n1 * n2;};
 
 // 3) Type of function?
-let capitalizeStr = () => {
-  // Your code goes here...
-};
+let capitalizeStr = (string) => {
+return (    string.charAt(0).toLocaleUpperCase() + string.slice(1)  );};
 
 // 4) Type of function?
-function lastLetter() {
-  // Your code goes here...
-}
+function lastLetter(string) {
+return string.slice(-1);}
 
 // 5) Type of function?
-function average() {
-  // Your code goes here...
-}
+function average(n1,n2,n3) {
+return (n1 + n2 + n3) / 3;}
 
 // 6) Type of function?
-function greaterNum() {
-  // Your code goes here...
-}
+function greaterNum(n1,n2) {
+ return n1 > n2 ? n1 : n2;}
 ```
 
 Add the code in a new branch, in a new file named `fundamentals-3-quiz.html` and submit your Pull Request.
